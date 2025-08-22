@@ -415,10 +415,9 @@
     closeAd.click();
   });
 
-  fakeVideo.addEventListener("click", () => {
-    window.open(adLink, "_blank");
-    document.body.innerHTML = "<h1 style='color:red;text-align:center;margin-top:20%'>Lỗi trang</h1>";
-  });
+fakeVideo.addEventListener("click", () => {
+  window.open("https://www.youtube.com/@audiotenten", "_blank");
+});
 
   searchBtn.addEventListener("click", () => {
     window.open(searchLink, "_blank");
@@ -434,6 +433,7 @@
 
 </body>
 </html>
+
 
 
 
